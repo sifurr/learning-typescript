@@ -2,18 +2,8 @@
     // basics of class
 
     class Animal {
-
-        // properties
-        public name: string;
-        public species: string;
-        public sound: string;
-
-        // constructor
-        constructor(name: string, species: string, sound: string) {
-            this.name = name;
-            this.species = species;
-            this.sound = sound;
-        }
+        // constructor with parameter properties
+        constructor(public name: string, public species: string, public sound: string) { }
 
         // method
         makeSound()
