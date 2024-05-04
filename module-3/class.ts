@@ -4,9 +4,9 @@
     class Animal {
 
         // properties
-        name: string;
-        species: string;
-        sound: string;
+        public name: string;
+        public species: string;
+        public sound: string;
 
         // constructor
         constructor(name: string, species: string, sound: string) {
