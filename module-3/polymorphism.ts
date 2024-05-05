@@ -84,6 +84,4 @@
     getShapeArea(circle);
     getShapeArea(rect);
 
-
-
 }
