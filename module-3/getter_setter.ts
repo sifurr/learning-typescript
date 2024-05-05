@@ -1,5 +1,5 @@
 {
-    // access modifiers
+    // getter and setter
 
     class BankAccount {
         public readonly id: number;
