@@ -18,6 +18,7 @@
     type NormalUser = {
         name: string;
     }
+
     type AdminUser = {
         name: string;
         role: string;
@@ -31,8 +32,13 @@
         }
     }
 
-    const normalUser = { name: 'John' };
-    const adminUser = { name: 'Adam', role: 'Admin' };
+    const normalUser = {
+        name: 'John'
+    };
+    const adminUser = {
+        name: 'Adam',
+        role: 'Admin'
+    };
 
     getUser(normalUser);
     console.log('\n');
